@@ -1,0 +1,9 @@
+.passwordCheckerStatusPass {
+    transition: background-color 0.02s linear;
+    background-color: #defddf !important;
+}
+
+.passwordCheckerStatusFail {
+    transition: background-color 0.02s linear;
+    background-color: #efb2ae !important;
+}
