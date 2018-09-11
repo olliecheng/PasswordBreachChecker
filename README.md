@@ -19,6 +19,7 @@ No compilation. No command line. No need to spend hours wondering why `apt insta
 Simply clone this repo (`git clone https://github.com/denosawr/PasswordBreachChecker.git` or `hub clone denosawr/PasswordBreachChecker`), or download and extract it (the big green "Clone and download" button, then "Download ZIP"). Then, fire up Chrome, look in disgust at the new UI and then go to `chrome://extensions/`. From there, proceed to flick the Developer Mode toggle up the top right, and click Load Unpacked. Go to the folder you unzipped/cloned the repo, click Select... and you're done. 
 
 If you didn't screw up, it should look like this now:
+
 ![Screenshot of `chrome://extensions/`](https://i.imgur.com/FkIzJ5A.png)
 
 ## Credit / acknowledgements
