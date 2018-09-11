@@ -28,4 +28,4 @@ If you didn't screw up, it should look like this now:
 * https://github.com/emn178/js-sha1 - I suck and couldn't do it myself, so I just decided to blatantly copy someone else's work and not give them credit. Oh, don't look at me like that. You know you do it _all_ the time with StackOverflow.
 
 ## Sidenote
-I'm a terrible programmer. If you have any suggestions, be it "Update jQuery! You're using 2.1.4 and the latest version is 3.3.1!" or "Stop using JavaScript, obviously C++ is the future of front-end web development", I'm happy to hear them! Likewise, pull requests to make my code legible or to add functionality are both accepted.
+I'm a terrible programmer. If you have any suggestions, be it "Update jQuery! You're using 2.1.4 and the latest version is 3.3.1!" or "Stop using JavaScript, obviously C++ is the future of front-end web development", I'm happy to hear them! Likewise, pull requests to make my code legible or to add functionality are both accepted (and wanted).
