@@ -52,7 +52,7 @@ function changeListener(event) {
 }
 
 let observer = new MutationObserver((mutations, observer) => {
-    // This function fires whenever the
+    // This function fires whenever the DOM changes.
     hookPasswordFields();
 });
 
