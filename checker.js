@@ -50,10 +50,10 @@ function changeListener(event) {
     }
 }
 
-MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+const MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 
-var observer = new MutationObserver(function(mutations, observer) {
-    // fired when a mutation occurs
+let observer = new MutationObserver(function(mutations, observer) {
+    hookPasswordFields();
 });
 
 // define what element should be observed by the observer
