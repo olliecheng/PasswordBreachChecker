@@ -1,3 +1,4 @@
+const MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 let currentRequest = false;
 
 function hookPasswordFields() {
@@ -36,7 +37,7 @@ function changeListener(event) {
             (data, textStatus, jqXHR) => {
                 currentRequest = false;
                 if (textStatus !== "success") {
-                    alert("Something went wrong with the Password Breach Checker. Please contact the developer with details.")
+                    alert("Something went wrong with the Password Breach Checker. Please contact the developer with details.");
                     return;
                 }
                 let results = data.split("\n");
@@ -50,9 +51,8 @@ function changeListener(event) {
     }
 }
 
-const MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
-
-let observer = new MutationObserver(function(mutations, observer) {
+let observer = new MutationObserver((mutations, observer) => {
+    // This function fires whenever the
     hookPasswordFields();
 });
 
